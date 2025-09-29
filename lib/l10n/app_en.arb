@@ -1,0 +1,476 @@
+{
+  "@@locale": "en",
+  "appTitle": "Daksh",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "welcomeMessage": "Welcome to Daksh!",
+  "@welcomeMessage": {
+    "description": "Welcome message displayed on the learn page"
+  },
+  "startLearning": "Start Learning",
+  "@startLearning": {
+    "description": "Button text to start learning"
+  },
+  "grammarCategories": "Grammar Categories",
+  "@grammarCategories": {
+    "description": "Title for grammar categories section"
+  },
+  "partsOfSpeech": "Parts of Speech",
+  "@partsOfSpeech": {
+    "description": "Category name for parts of speech"
+  },
+  "partsOfSpeechDescription": "Learn about nouns, verbs, adjectives, and more.",
+  "@partsOfSpeechDescription": {
+    "description": "Description for parts of speech category"
+  },
+  "sentenceStructure": "Sentence Structure",
+  "@sentenceStructure": {
+    "description": "Category name for sentence structure"
+  },
+  "sentenceStructureDescription": "Master sentence formation and grammar rules.",
+  "@sentenceStructureDescription": {
+    "description": "Description for sentence structure category"
+  },
+  "tenses": "Tenses",
+  "@tenses": {
+    "description": "Category name for tenses"
+  },
+  "tensesDescription": "Understand past, present, and future tenses.",
+  "@tensesDescription": {
+    "description": "Description for tenses category"
+  },
+  "punctuation": "Punctuation",
+  "@punctuation": {
+    "description": "Category name for punctuation"
+  },
+  "punctuationDescription": "Learn proper punctuation usage.",
+  "@punctuationDescription": {
+    "description": "Description for punctuation category"
+  },
+  "recentLessons": "Recent Lessons",
+  "@recentLessons": {
+    "description": "Title for recent lessons section"
+  },
+  "lesson": "Lesson",
+  "@lesson": {
+    "description": "Generic lesson text"
+  },
+  "basicGrammar": "Basic Grammar",
+  "@basicGrammar": {
+    "description": "Basic grammar lesson title"
+  },
+  "completed": "Completed",
+  "@completed": {
+    "description": "Status text for completed items"
+  },
+  "daysAgo": "{count, plural, =0{Today} =1{1 day ago} other{{count} days ago}}",
+  "@daysAgo": {
+    "description": "Time ago text with pluralization",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+  "learn": "Learn",
+  "@learn": {
+    "description": "Learn tab label"
+  },
+  "practice": "Practice",
+  "@practice": {
+    "description": "Practice tab label"
+  },
+  "assess": "Assess",
+  "@assess": {
+    "description": "Assess tab label"
+  },
+  "downloads": "Downloads",
+  "@downloads": {
+    "description": "Downloads tab label"
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "Settings tab label"
+  },
+  "search": "Search",
+  "@search": {
+    "description": "Search functionality label"
+  },
+  "searchLessons": "Search lessons",
+  "@searchLessons": {
+    "description": "Search lessons tooltip"
+  },
+  "practiceProgress": "Practice Progress",
+  "@practiceProgress": {
+    "description": "Practice progress section title"
+  },
+  "exercisesCompleted": "Exercises Completed",
+  "@exercisesCompleted": {
+    "description": "Label for completed exercises count"
+  },
+  "streak": "Streak",
+  "@streak": {
+    "description": "Label for practice streak"
+  },
+  "days": "{count, plural, =1{1 day} other{{count} days}}",
+  "@days": {
+    "description": "Days count with pluralization",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+  "quickPractice": "Quick Practice",
+  "@quickPractice": {
+    "description": "Quick practice option"
+  },
+  "quickPracticeDescription": "Short exercises for daily practice",
+  "@quickPracticeDescription": {
+    "description": "Description for quick practice"
+  },
+  "focusedPractice": "Focused Practice",
+  "@focusedPractice": {
+    "description": "Focused practice option"
+  },
+  "focusedPracticeDescription": "Target specific grammar areas",
+  "@focusedPracticeDescription": {
+    "description": "Description for focused practice"
+  },
+  "challengeMode": "Challenge Mode",
+  "@challengeMode": {
+    "description": "Challenge mode option"
+  },
+  "challengeModeDescription": "Test your skills with difficult exercises",
+  "@challengeModeDescription": {
+    "description": "Description for challenge mode"
+  },
+  "recentPractice": "Recent Practice",
+  "@recentPractice": {
+    "description": "Recent practice section title"
+  },
+  "practiceSession": "Practice Session",
+  "@practiceSession": {
+    "description": "Practice session label"
+  },
+  "score": "Score",
+  "@score": {
+    "description": "Score label"
+  },
+  "assessmentCenter": "Assessment Center",
+  "@assessmentCenter": {
+    "description": "Assessment center title"
+  },
+  "testYourKnowledge": "Test your grammar knowledge and track your progress with comprehensive assessments.",
+  "@testYourKnowledge": {
+    "description": "Assessment center description"
+  },
+  "currentLevel": "Current Level",
+  "@currentLevel": {
+    "description": "Current level section title"
+  },
+  "intermediate": "Intermediate",
+  "@intermediate": {
+    "description": "Intermediate difficulty level"
+  },
+  "basedOnPerformance": "Based on your recent performance",
+  "@basedOnPerformance": {
+    "description": "Current level description"
+  },
+  "availableAssessments": "Available Assessments",
+  "@availableAssessments": {
+    "description": "Available assessments section title"
+  },
+  "quickAssessment": "Quick Assessment",
+  "@quickAssessment": {
+    "description": "Quick assessment option"
+  },
+  "quickAssessmentDescription": "5-10 minutes • Basic grammar knowledge",
+  "@quickAssessmentDescription": {
+    "description": "Quick assessment description"
+  },
+  "comprehensiveTest": "Comprehensive Test",
+  "@comprehensiveTest": {
+    "description": "Comprehensive test option"
+  },
+  "comprehensiveTestDescription": "30-45 minutes • Full grammar evaluation",
+  "@comprehensiveTestDescription": {
+    "description": "Comprehensive test description"
+  },
+  "skillSpecificTest": "Skill-Specific Test",
+  "@skillSpecificTest": {
+    "description": "Skill-specific test option"
+  },
+  "skillSpecificTestDescription": "15-20 minutes • Focus on specific areas",
+  "@skillSpecificTestDescription": {
+    "description": "Skill-specific test description"
+  },
+  "start": "Start",
+  "@start": {
+    "description": "Start button text"
+  },
+  "chooseArea": "Choose Area",
+  "@chooseArea": {
+    "description": "Choose area button text"
+  },
+  "recentAssessments": "Recent Assessments",
+  "@recentAssessments": {
+    "description": "Recent assessments section title"
+  },
+  "storageOverview": "Storage Overview",
+  "@storageOverview": {
+    "description": "Storage overview section title"
+  },
+  "downloadedLessons": "Downloaded Lessons",
+  "@downloadedLessons": {
+    "description": "Downloaded lessons label"
+  },
+  "storageUsed": "Storage Used",
+  "@storageUsed": {
+    "description": "Storage used label"
+  },
+  "availableForDownload": "Available for Download",
+  "@availableForDownload": {
+    "description": "Available for download section title"
+  },
+  "completeGrammarCourse": "Complete Grammar Course",
+  "@completeGrammarCourse": {
+    "description": "Complete grammar course title"
+  },
+  "allLessonsAndExercises": "All lessons and exercises",
+  "@allLessonsAndExercises": {
+    "description": "Complete course description"
+  },
+  "practiceExercisesPack": "Practice Exercises Pack",
+  "@practiceExercisesPack": {
+    "description": "Practice exercises pack title"
+  },
+  "offlinePracticeMaterials": "Offline practice materials",
+  "@offlinePracticeMaterials": {
+    "description": "Practice pack description"
+  },
+  "assessmentTests": "Assessment Tests",
+  "@assessmentTests": {
+    "description": "Assessment tests title"
+  },
+  "offlineAssessmentMaterials": "Offline assessment materials",
+  "@offlineAssessmentMaterials": {
+    "description": "Assessment tests description"
+  },
+  "size": "Size",
+  "@size": {
+    "description": "Size label"
+  },
+  "downloaded": "Downloaded",
+  "@downloaded": {
+    "description": "Downloaded status"
+  },
+  "download": "Download",
+  "@download": {
+    "description": "Download button text"
+  },
+  "downloadedContent": "Downloaded Content",
+  "@downloadedContent": {
+    "description": "Downloaded content section title"
+  },
+  "downloadedOn": "Downloaded {date}",
+  "@downloadedOn": {
+    "description": "Downloaded date text",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "play": "Play",
+  "@play": {
+    "description": "Play button text"
+  },
+  "delete": "Delete",
+  "@delete": {
+    "description": "Delete button text"
+  },
+  "downloadSettings": "Download Settings",
+  "@downloadSettings": {
+    "description": "Download settings section title"
+  },
+  "downloadOverWifiOnly": "Download over Wi-Fi only",
+  "@downloadOverWifiOnly": {
+    "description": "Wi-Fi only download setting"
+  },
+  "saveMobileData": "Save mobile data by downloading only on Wi-Fi",
+  "@saveMobileData": {
+    "description": "Wi-Fi only setting description"
+  },
+  "autoDownloadNewContent": "Auto-download new content",
+  "@autoDownloadNewContent": {
+    "description": "Auto-download setting"
+  },
+  "automaticallyDownloadNewLessons": "Automatically download new lessons when available",
+  "@automaticallyDownloadNewLessons": {
+    "description": "Auto-download setting description"
+  },
+  "profile": "Profile",
+  "@profile": {
+    "description": "Profile section title"
+  },
+  "appSettings": "App Settings",
+  "@appSettings": {
+    "description": "App settings section title"
+  },
+  "theme": "Theme",
+  "@theme": {
+    "description": "Theme setting"
+  },
+  "lightTheme": "Light theme",
+  "@lightTheme": {
+    "description": "Light theme option"
+  },
+  "language": "Language",
+  "@language": {
+    "description": "Language setting"
+  },
+  "english": "English",
+  "@english": {
+    "description": "English language option"
+  },
+  "hindi": "हिंदी",
+  "@hindi": {
+    "description": "Hindi language option"
+  },
+  "telugu": "తెలుగు",
+  "@telugu": {
+    "description": "Telugu language option"
+  },
+  "audioSettings": "Audio Settings",
+  "@audioSettings": {
+    "description": "Audio settings"
+  },
+  "soundEffectsAndVoice": "Sound effects and voice",
+  "@soundEffectsAndVoice": {
+    "description": "Audio settings description"
+  },
+  "notifications": "Notifications",
+  "@notifications": {
+    "description": "Notifications setting"
+  },
+  "practiceReminders": "Practice reminders",
+  "@practiceReminders": {
+    "description": "Notifications description"
+  },
+  "learningPreferences": "Learning Preferences",
+  "@learningPreferences": {
+    "description": "Learning preferences section title"
+  },
+  "dailyGoal": "Daily Goal",
+  "@dailyGoal": {
+    "description": "Daily goal setting"
+  },
+  "minutesPerDay": "{minutes} minutes per day",
+  "@minutesPerDay": {
+    "description": "Minutes per day text",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "everyDayAt": "Every day at {time}",
+  "@everyDayAt": {
+    "description": "Practice reminder time",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "difficultyLevel": "Difficulty Level",
+  "@difficultyLevel": {
+    "description": "Difficulty level setting"
+  },
+  "dataAndPrivacy": "Data & Privacy",
+  "@dataAndPrivacy": {
+    "description": "Data and privacy section title"
+  },
+  "downloadData": "Download Data",
+  "@downloadData": {
+    "description": "Download data option"
+  },
+  "exportYourProgress": "Export your learning progress",
+  "@exportYourProgress": {
+    "description": "Download data description"
+  },
+  "deleteAccount": "Delete Account",
+  "@deleteAccount": {
+    "description": "Delete account option"
+  },
+  "permanentlyDeleteAccount": "Permanently delete your account",
+  "@permanentlyDeleteAccount": {
+    "description": "Delete account description"
+  },
+  "supportAndInfo": "Support & Info",
+  "@supportAndInfo": {
+    "description": "Support and info section title"
+  },
+  "helpAndSupport": "Help & Support",
+  "@helpAndSupport": {
+    "description": "Help and support option"
+  },
+  "getHelpAndContactSupport": "Get help and contact support",
+  "@getHelpAndContactSupport": {
+    "description": "Help and support description"
+  },
+  "about": "About",
+  "@about": {
+    "description": "About option"
+  },
+  "version": "Version {version}",
+  "@version": {
+    "description": "Version text",
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "rateApp": "Rate App",
+  "@rateApp": {
+    "description": "Rate app option"
+  },
+  "rateUsOnAppStore": "Rate us on the app store",
+  "@rateUsOnAppStore": {
+    "description": "Rate app description"
+  },
+  "editProfile": "Edit profile",
+  "@editProfile": {
+    "description": "Edit profile tooltip"
+  },
+  "tryAgain": "Try Again",
+  "@tryAgain": {
+    "description": "Try again button text"
+  },
+  "pageNotFound": "Page Not Found",
+  "@pageNotFound": {
+    "description": "Page not found error title"
+  },
+  "pageNotFoundMessage": "Page not found: {location}",
+  "@pageNotFoundMessage": {
+    "description": "Page not found error message",
+    "placeholders": {
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "goHome": "Go Home",
+  "@goHome": {
+    "description": "Go home button text"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel button text"
+  }
+}

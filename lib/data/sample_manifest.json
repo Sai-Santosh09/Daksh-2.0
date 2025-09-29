@@ -1,0 +1,352 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2024-01-15T10:00:00Z",
+  "lessons": [
+    {
+      "id": "lesson_001",
+      "title": "Introduction to Grammar",
+      "description": "Learn the basics of English grammar including parts of speech and sentence structure.",
+      "category": "Parts of Speech",
+      "duration": 15,
+      "difficulty": "beginner",
+      "type": "interactive",
+      "status": "published",
+      "isCompleted": false,
+      "progress": 0.0,
+      "tags": ["grammar", "basics", "parts of speech"],
+      "assetIds": ["asset_001", "asset_002", "asset_003"],
+      "thumbnailUrl": "https://api.daksh.com/assets/thumbnails/lesson_001.jpg",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-15T10:00:00Z",
+      "prerequisites": null,
+      "metadata": {
+        "author": "Daksh Team",
+        "rating": 4.5,
+        "views": 1250
+      },
+      "orderIndex": 1
+    },
+    {
+      "id": "lesson_002",
+      "title": "Verb Tenses",
+      "description": "Master past, present, and future tenses with interactive exercises.",
+      "category": "Tenses",
+      "duration": 25,
+      "difficulty": "intermediate",
+      "type": "video",
+      "status": "published",
+      "isCompleted": false,
+      "progress": 0.0,
+      "tags": ["tenses", "verbs", "grammar"],
+      "assetIds": ["asset_004", "asset_005"],
+      "thumbnailUrl": "https://api.daksh.com/assets/thumbnails/lesson_002.jpg",
+      "createdAt": "2024-01-02T00:00:00Z",
+      "updatedAt": "2024-01-15T10:00:00Z",
+      "prerequisites": "lesson_001",
+      "metadata": {
+        "author": "Daksh Team",
+        "rating": 4.8,
+        "views": 980
+      },
+      "orderIndex": 2
+    },
+    {
+      "id": "lesson_003",
+      "title": "Sentence Structure",
+      "description": "Learn how to construct proper sentences with correct grammar.",
+      "category": "Sentence Structure",
+      "duration": 20,
+      "difficulty": "intermediate",
+      "type": "reading",
+      "status": "published",
+      "isCompleted": false,
+      "progress": 0.0,
+      "tags": ["sentence structure", "grammar", "writing"],
+      "assetIds": ["asset_006", "asset_007", "asset_008"],
+      "thumbnailUrl": "https://api.daksh.com/assets/thumbnails/lesson_003.jpg",
+      "createdAt": "2024-01-03T00:00:00Z",
+      "updatedAt": "2024-01-15T10:00:00Z",
+      "prerequisites": "lesson_001",
+      "metadata": {
+        "author": "Daksh Team",
+        "rating": 4.3,
+        "views": 750
+      },
+      "orderIndex": 3
+    },
+    {
+      "id": "lesson_004",
+      "title": "Punctuation Rules",
+      "description": "Master the proper use of punctuation marks in English writing.",
+      "category": "Punctuation",
+      "duration": 18,
+      "difficulty": "beginner",
+      "type": "exercise",
+      "status": "published",
+      "isCompleted": false,
+      "progress": 0.0,
+      "tags": ["punctuation", "writing", "grammar"],
+      "assetIds": ["asset_009", "asset_010"],
+      "thumbnailUrl": "https://api.daksh.com/assets/thumbnails/lesson_004.jpg",
+      "createdAt": "2024-01-04T00:00:00Z",
+      "updatedAt": "2024-01-15T10:00:00Z",
+      "prerequisites": null,
+      "metadata": {
+        "author": "Daksh Team",
+        "rating": 4.6,
+        "views": 1100
+      },
+      "orderIndex": 4
+    },
+    {
+      "id": "lesson_005",
+      "title": "Advanced Grammar Assessment",
+      "description": "Test your knowledge with comprehensive grammar questions.",
+      "category": "Assessment",
+      "duration": 30,
+      "difficulty": "advanced",
+      "type": "assessment",
+      "status": "published",
+      "isCompleted": false,
+      "progress": 0.0,
+      "tags": ["assessment", "advanced", "grammar"],
+      "assetIds": ["asset_011", "asset_012", "asset_013"],
+      "thumbnailUrl": "https://api.daksh.com/assets/thumbnails/lesson_005.jpg",
+      "createdAt": "2024-01-05T00:00:00Z",
+      "updatedAt": "2024-01-15T10:00:00Z",
+      "prerequisites": "lesson_002,lesson_003",
+      "metadata": {
+        "author": "Daksh Team",
+        "rating": 4.7,
+        "views": 650
+      },
+      "orderIndex": 5
+    }
+  ],
+  "assets": [
+    {
+      "id": "asset_001",
+      "lessonId": "lesson_001",
+      "name": "Introduction Video",
+      "description": "Welcome video explaining the lesson objectives",
+      "type": "video",
+      "url": "https://api.daksh.com/assets/videos/intro_001.mp4",
+      "sizeBytes": 15728640,
+      "mimeType": "video/mp4",
+      "checksum": "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0",
+      "status": "not_downloaded",
+      "lastModified": "2024-01-01T00:00:00Z",
+      "metadata": {
+        "duration": 120,
+        "quality": "720p"
+      }
+    },
+    {
+      "id": "asset_002",
+      "lessonId": "lesson_001",
+      "name": "Interactive Exercise",
+      "description": "Drag and drop exercise for parts of speech",
+      "type": "interactive",
+      "url": "https://api.daksh.com/assets/interactive/exercise_001.json",
+      "sizeBytes": 204800,
+      "mimeType": "application/json",
+      "checksum": "b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1",
+      "status": "not_downloaded",
+      "lastModified": "2024-01-01T00:00:00Z",
+      "metadata": {
+        "type": "drag_drop",
+        "difficulty": "beginner"
+      }
+    },
+    {
+      "id": "asset_003",
+      "lessonId": "lesson_001",
+      "name": "Lesson Summary",
+      "description": "PDF summary of key concepts",
+      "type": "document",
+      "url": "https://api.daksh.com/assets/documents/summary_001.pdf",
+      "sizeBytes": 512000,
+      "mimeType": "application/pdf",
+      "checksum": "c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2",
+      "status": "not_downloaded",
+      "lastModified": "2024-01-01T00:00:00Z",
+      "metadata": {
+        "pages": 5,
+        "format": "pdf"
+      }
+    },
+    {
+      "id": "asset_004",
+      "lessonId": "lesson_002",
+      "name": "Verb Tenses Video",
+      "description": "Comprehensive video explaining verb tenses",
+      "type": "video",
+      "url": "https://api.daksh.com/assets/videos/tenses_002.mp4",
+      "sizeBytes": 25165824,
+      "mimeType": "video/mp4",
+      "checksum": "d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3",
+      "status": "not_downloaded",
+      "lastModified": "2024-01-02T00:00:00Z",
+      "metadata": {
+        "duration": 300,
+        "quality": "1080p"
+      }
+    },
+    {
+      "id": "asset_005",
+      "lessonId": "lesson_002",
+      "name": "Tense Practice Audio",
+      "description": "Audio exercises for tense practice",
+      "type": "audio",
+      "url": "https://api.daksh.com/assets/audio/tenses_002.mp3",
+      "sizeBytes": 8388608,
+      "mimeType": "audio/mpeg",
+      "checksum": "e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4",
+      "status": "not_downloaded",
+      "lastModified": "2024-01-02T00:00:00Z",
+      "metadata": {
+        "duration": 180,
+        "format": "mp3"
+      }
+    },
+    {
+      "id": "asset_006",
+      "lessonId": "lesson_003",
+      "name": "Sentence Structure Guide",
+      "description": "Interactive guide to sentence construction",
+      "type": "interactive",
+      "url": "https://api.daksh.com/assets/interactive/sentences_003.json",
+      "sizeBytes": 409600,
+      "mimeType": "application/json",
+      "checksum": "f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5",
+      "status": "not_downloaded",
+      "lastModified": "2024-01-03T00:00:00Z",
+      "metadata": {
+        "type": "interactive_guide",
+        "difficulty": "intermediate"
+      }
+    },
+    {
+      "id": "asset_007",
+      "lessonId": "lesson_003",
+      "name": "Reading Material",
+      "description": "Comprehensive reading material on sentence structure",
+      "type": "document",
+      "url": "https://api.daksh.com/assets/documents/sentences_003.pdf",
+      "sizeBytes": 1048576,
+      "mimeType": "application/pdf",
+      "checksum": "g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6",
+      "status": "not_downloaded",
+      "lastModified": "2024-01-03T00:00:00Z",
+      "metadata": {
+        "pages": 12,
+        "format": "pdf"
+      }
+    },
+    {
+      "id": "asset_008",
+      "lessonId": "lesson_003",
+      "name": "Practice Exercises",
+      "description": "Interactive practice exercises",
+      "type": "interactive",
+      "url": "https://api.daksh.com/assets/interactive/practice_003.json",
+      "sizeBytes": 307200,
+      "mimeType": "application/json",
+      "checksum": "h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7",
+      "status": "not_downloaded",
+      "lastModified": "2024-01-03T00:00:00Z",
+      "metadata": {
+        "type": "practice_exercises",
+        "count": 15
+      }
+    },
+    {
+      "id": "asset_009",
+      "lessonId": "lesson_004",
+      "name": "Punctuation Rules Video",
+      "description": "Video explaining punctuation rules",
+      "type": "video",
+      "url": "https://api.daksh.com/assets/videos/punctuation_004.mp4",
+      "sizeBytes": 18874368,
+      "mimeType": "video/mp4",
+      "checksum": "i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8",
+      "status": "not_downloaded",
+      "lastModified": "2024-01-04T00:00:00Z",
+      "metadata": {
+        "duration": 240,
+        "quality": "720p"
+      }
+    },
+    {
+      "id": "asset_010",
+      "lessonId": "lesson_004",
+      "name": "Punctuation Quiz",
+      "description": "Interactive quiz on punctuation",
+      "type": "interactive",
+      "url": "https://api.daksh.com/assets/interactive/quiz_004.json",
+      "sizeBytes": 153600,
+      "mimeType": "application/json",
+      "checksum": "j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9",
+      "status": "not_downloaded",
+      "lastModified": "2024-01-04T00:00:00Z",
+      "metadata": {
+        "type": "quiz",
+        "questions": 20
+      }
+    },
+    {
+      "id": "asset_011",
+      "lessonId": "lesson_005",
+      "name": "Assessment Questions",
+      "description": "Comprehensive assessment questions",
+      "type": "interactive",
+      "url": "https://api.daksh.com/assets/interactive/assessment_005.json",
+      "sizeBytes": 614400,
+      "mimeType": "application/json",
+      "checksum": "k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0",
+      "status": "not_downloaded",
+      "lastModified": "2024-01-05T00:00:00Z",
+      "metadata": {
+        "type": "assessment",
+        "questions": 50,
+        "timeLimit": 1800
+      }
+    },
+    {
+      "id": "asset_012",
+      "lessonId": "lesson_005",
+      "name": "Assessment Instructions",
+      "description": "Audio instructions for the assessment",
+      "type": "audio",
+      "url": "https://api.daksh.com/assets/audio/instructions_005.mp3",
+      "sizeBytes": 3145728,
+      "mimeType": "audio/mpeg",
+      "checksum": "l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1",
+      "status": "not_downloaded",
+      "lastModified": "2024-01-05T00:00:00Z",
+      "metadata": {
+        "duration": 90,
+        "format": "mp3"
+      }
+    },
+    {
+      "id": "asset_013",
+      "lessonId": "lesson_005",
+      "name": "Results Explanation",
+      "description": "Video explaining assessment results",
+      "type": "video",
+      "url": "https://api.daksh.com/assets/videos/results_005.mp4",
+      "sizeBytes": 12582912,
+      "mimeType": "video/mp4",
+      "checksum": "m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2",
+      "status": "not_downloaded",
+      "lastModified": "2024-01-05T00:00:00Z",
+      "metadata": {
+        "duration": 180,
+        "quality": "720p"
+      }
+    }
+  ]
+}
+
+

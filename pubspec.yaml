@@ -1,0 +1,71 @@
+name: daksh
+description: A Flutter app for learning grammar with clean architecture.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  
+  # State Management
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+  
+  # Navigation
+  go_router: ^12.1.3
+  
+  # UI
+  cupertino_icons: ^1.0.2
+  
+  # Localization
+  intl: ^0.20.2
+  
+  # Network and Storage
+  dio: ^5.4.0
+  connectivity_plus: ^5.0.2
+  path_provider: ^2.1.2
+  path: ^1.8.3
+  crypto: ^3.0.3
+  
+  # Media Player
+  video_player: ^2.8.1
+  audioplayers: ^5.2.1
+  chewie: ^1.7.4
+  wakelock_plus: ^1.1.4
+  permission_handler: ^11.1.0
+  
+  # Utilities
+  equatable: ^2.0.5
+  json_annotation: ^4.8.1
+  shared_preferences: ^2.2.2
+  
+  # Authentication (simplified for now)
+  # google_sign_in: ^6.2.1
+  # firebase_auth: ^4.15.3
+  # firebase_core: ^2.24.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_lints: ^3.0.0
+  
+  # Code Generation
+  build_runner: ^2.4.7
+  riverpod_generator: ^2.3.9
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+  
+  generate: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/

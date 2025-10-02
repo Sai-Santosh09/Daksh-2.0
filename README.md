@@ -1,6 +1,6 @@
 # Daksh
 
-A Flutter app for learning grammar with clean architecture, built with accessibility in mind.
+A Flutter app for learning with clean architecture, built with accessibility in mind.
 
 ## Features
 

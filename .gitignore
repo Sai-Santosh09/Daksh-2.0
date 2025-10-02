@@ -79,5 +79,86 @@ lib/generated_plugin_registrant.dart
 # Coverage
 coverage/
 
+# Environment variables and secrets
+.env
+.env.local
+.env.production
+.env.development
+*.env
+
+# API keys and sensitive configuration
+/lib/core/config/api_keys.dart
+/lib/core/config/secrets.dart
+firebase_options.dart
+google-services.json
+GoogleService-Info.plist
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Log files
+*.log
+logs/
+log/
+
+# Temporary files
+*.tmp
+*.temp
+.temp/
+.tmp/
+
+# Generated files (beyond what's already covered)
+*.g.dart
+*.freezed.dart
+*.gr.dart
+*.config.dart
+*.part.dart
+
+# IDE and editor specific
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/.ropeproject
+*.code-workspace
+
+# Platform specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build artifacts
+/build/
+**/build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+.packages
+pubspec.lock
+
+# Web build
+/web/
+build/web/
+
+# Chrome device files (from our development)
+.dart_tool/chrome-device/
+
+# Test related
+test/.test_coverage.dart
+coverage/lcov.info
+
+# Riverpod code generation
+*.riverpod.dart
+
+# Firebase
+.firebaserc
+firebase-debug.log
+firebase-debug.*.log
+
 # Exceptions to above rules.
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages

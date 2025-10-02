@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import '../../core/theme/app_theme.dart';
 import '../../generated/l10n/app_localizations.dart';
+import 'search_page.dart';
 
 class PracticePage extends ConsumerWidget {
   const PracticePage({super.key});
@@ -15,6 +16,17 @@ class PracticePage extends ConsumerWidget {
       appBar: AppBar(
         title: Text(l10n.practice),
         actions: [
+          IconButton(
+            onPressed: () {
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (context) => const SearchPage(initialQuery: 'practice'),
+                ),
+              );
+            },
+            icon: const Icon(Icons.search),
+            tooltip: 'Search practice materials',
+          ),
           IconButton(
             onPressed: () {
               // TODO: Implement practice settings

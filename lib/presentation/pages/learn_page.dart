@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import '../../core/theme/app_theme.dart';
 import '../../generated/l10n/app_localizations.dart';
+import 'search_page.dart';
 
 class LearnPage extends ConsumerWidget {
   const LearnPage({super.key});
@@ -17,10 +18,14 @@ class LearnPage extends ConsumerWidget {
         actions: [
           IconButton(
             onPressed: () {
-              // TODO: Implement search
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (context) => const SearchPage(),
+                ),
+              );
             },
             icon: const Icon(Icons.search),
-            tooltip: 'Search lessons',
+            tooltip: l10n.searchLessons,
           ),
         ],
       ),

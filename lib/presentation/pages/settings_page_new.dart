@@ -7,6 +7,7 @@ import '../widgets/language_selector.dart';
 import '../providers/app_providers.dart';
 import '../providers/user_profile_provider.dart';
 import '../providers/settings_provider.dart';
+import 'pomodoro_settings_page.dart';
 
 class SettingsPage extends ConsumerWidget {
   const SettingsPage({super.key});
@@ -369,6 +370,16 @@ class SettingsPage extends ConsumerWidget {
           settings.pomodoroModeEnabled,
           (value) => notifier.updateSetting('pomodoroModeEnabled', value),
         ),
+        if (settings.pomodoroModeEnabled) ...[
+          const SizedBox(height: 8),
+          _buildNavigationTile(
+            context,
+            'Configure Pomodoro Timer',
+            'Set up your study and break durations',
+            Icons.settings,
+            () => _navigateToPomodoroSettings(context),
+          ),
+        ],
         _buildSwitchTile(
           context,
           'Focus Mode',
@@ -662,7 +673,7 @@ class SettingsPage extends ConsumerWidget {
         color: Colors.grey.shade600,
       ),
       trailing: PopupMenuButton<ThemeMode>(
-        onSelected: (mode) => themeNotifier.setThemeMode(mode),
+        onSelected: themeNotifier.setThemeMode,
         itemBuilder: (context) => [
           const PopupMenuItem(
             value: ThemeMode.light,
@@ -746,6 +757,30 @@ class SettingsPage extends ConsumerWidget {
     );
   }
 
+  void _navigateToPomodoroSettings(BuildContext context) {
+    Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (context) => const PomodoroSettingsPage(),
+      ),
+    );
+  }
+
+  Widget _buildNavigationTile(
+    BuildContext context,
+    String title,
+    String subtitle,
+    IconData icon,
+    VoidCallback onTap,
+  ) {
+    return ListTile(
+      leading: Icon(icon, color: Colors.blue),
+      title: Text(title),
+      subtitle: Text(subtitle),
+      trailing: const Icon(Icons.arrow_forward_ios, size: 16),
+      onTap: onTap,
+    );
+  }
+
   void _showPrivacyDialog(BuildContext context) {
     showDialog(
       context: context,
@@ -807,4 +842,8 @@ class SettingsPage extends ConsumerWidget {
     );
   }
 }
+
+
+
+
 

@@ -3,15 +3,14 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import '../../core/theme/app_theme.dart';
 import '../providers/chapter_provider.dart';
-import 'quiz_page.dart';
 
 class ChapterDetailPage extends ConsumerWidget {
-  final String chapterId;
   
   const ChapterDetailPage({
     super.key,
     required this.chapterId,
   });
+  final String chapterId;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {

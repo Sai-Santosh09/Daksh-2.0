@@ -111,3 +111,6 @@ These settings control various aspects of the app:
 The comprehensive settings system ensures users can customize their learning experience to match their preferences and needs! 🎉
 
 
+
+
+

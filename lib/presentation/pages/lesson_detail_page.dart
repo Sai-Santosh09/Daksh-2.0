@@ -3,20 +3,17 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../core/theme/app_theme.dart';
 import '../../domain/entities/lesson.dart';
 import '../../domain/entities/asset.dart';
-import '../widgets/media_player_widget.dart';
-import '../widgets/download_progress_widget.dart';
 import '../providers/content_provider.dart';
-import '../providers/download_provider.dart';
 import '../../data/services/download_manager.dart';
 import 'media_player_page.dart';
 
 class LessonDetailPage extends ConsumerWidget {
-  final String lessonId;
 
   const LessonDetailPage({
     super.key,
     required this.lessonId,
   });
+  final String lessonId;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {

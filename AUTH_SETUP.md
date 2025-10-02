@@ -68,3 +68,6 @@ The app currently uses a **simplified authentication system** for demo purposes 
 The authentication system is fully functional for demo purposes and provides a complete user experience flow! 🎉
 
 
+
+
+

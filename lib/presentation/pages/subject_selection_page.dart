@@ -3,15 +3,14 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import '../../core/theme/app_theme.dart';
 import '../providers/class_provider.dart';
-import 'lesson_list_page.dart';
 
 class SubjectSelectionPage extends ConsumerWidget {
-  final int classNumber;
   
   const SubjectSelectionPage({
     super.key,
     required this.classNumber,
   });
+  final int classNumber;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {

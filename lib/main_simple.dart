@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'core/theme/app_theme.dart';
 import 'presentation/providers/app_providers.dart';
+import 'presentation/pages/pomodoro_page.dart';
+import 'presentation/pages/search_page.dart';
 
 void main() {
   runApp(
@@ -202,7 +204,7 @@ class SettingsPageSimple extends ConsumerWidget {
               subtitle: Text(_getThemeModeText(themeMode)),
               trailing: DropdownButton<ThemeMode>(
                 value: themeMode,
-                onChanged: (ThemeMode? mode) {
+                onChanged: (mode) {
                   if (mode != null) {
                     ref.read(themeModeProvider.notifier).setThemeMode(mode);
                   }
@@ -227,6 +229,38 @@ class SettingsPageSimple extends ConsumerWidget {
           const SizedBox(height: 16),
           Card(
             child: ListTile(
+              leading: const Icon(Icons.search, color: Colors.green),
+              title: const Text('Search Content'),
+              subtitle: const Text('Find lessons, videos, and study materials'),
+              trailing: const Icon(Icons.arrow_forward_ios),
+              onTap: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => const SearchPage(),
+                  ),
+                );
+              },
+            ),
+          ),
+          const SizedBox(height: 16),
+          Card(
+            child: ListTile(
+              leading: const Icon(Icons.timer, color: Colors.blue),
+              title: const Text('Pomodoro Timer'),
+              subtitle: const Text('Focus timer for productive study sessions'),
+              trailing: const Icon(Icons.arrow_forward_ios),
+              onTap: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => const PomodoroPage(),
+                  ),
+                );
+              },
+            ),
+          ),
+          const SizedBox(height: 16),
+          Card(
+            child: ListTile(
               leading: const Icon(Icons.info),
               title: const Text('About'),
               subtitle: const Text('Daksh Grammar Learning App v1.0.0'),
@@ -238,7 +272,7 @@ class SettingsPageSimple extends ConsumerWidget {
                   applicationVersion: '1.0.0',
                   applicationIcon: const Icon(Icons.school, size: 48),
                   children: const [
-                    Text('A comprehensive grammar learning application with dark mode support.'),
+                    Text('A comprehensive grammar learning application with dark mode support and Pomodoro timer.'),
                   ],
                 );
               },

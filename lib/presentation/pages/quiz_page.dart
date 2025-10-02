@@ -3,15 +3,14 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import '../../core/theme/app_theme.dart';
 import '../providers/chapter_provider.dart';
-import 'quiz_result_page.dart';
 
 class QuizPage extends ConsumerStatefulWidget {
-  final String chapterId;
   
   const QuizPage({
     super.key,
     required this.chapterId,
   });
+  final String chapterId;
 
   @override
   ConsumerState<QuizPage> createState() => _QuizPageState();

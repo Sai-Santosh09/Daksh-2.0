@@ -4,17 +4,16 @@ import 'package:go_router/go_router.dart';
 import '../../core/theme/app_theme.dart';
 import '../providers/chapter_provider.dart';
 import '../providers/class_provider.dart';
-import 'chapter_detail_page.dart';
 
 class ChaptersListPage extends ConsumerWidget {
-  final int classNumber;
-  final String subjectId;
   
   const ChaptersListPage({
     super.key,
     required this.classNumber,
     required this.subjectId,
   });
+  final int classNumber;
+  final String subjectId;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -216,7 +215,7 @@ class ChaptersListPage extends ConsumerWidget {
                         ),
                         const Spacer(),
                         if (chapter.isCompleted)
-                          Icon(
+                          const Icon(
                             Icons.check_circle,
                             color: Colors.green,
                             size: 20,
